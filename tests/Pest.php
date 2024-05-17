@@ -11,7 +11,9 @@
 |
 */
 
-uses(Tests\TestCase::class)->in('../src');
+uses(Tests\TestCase::class)
+    ->beforeEach(fn () => (new \Mongo\RefreshMongoDatabase)())
+    ->in('../src');
 
 /*
 |--------------------------------------------------------------------------

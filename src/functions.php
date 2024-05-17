@@ -7,7 +7,7 @@ if (!function_exists('mongo')) {
         $mongoUri = config('app.mongo_uri', 'mongodb://localhost:27017');
 
         $mongo = new MongoDB\Client($mongoUri);
-        $database = app()->runningUnitTests() ? config('app.mongo_db_test', 'test') : config('app.mongo_db');
+        $database = app()->runningUnitTests() ? config('app.mongo_db_test', 'test') : config('app.mongo_db', 'test');
 
         if (!$database) {
             throw new Exception('MONGO_DB is not set in .env');
