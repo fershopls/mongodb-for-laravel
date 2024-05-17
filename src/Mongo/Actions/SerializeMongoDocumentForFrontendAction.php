@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Mongo\Actions;
+namespace Mongo\Actions;
 
 class SerializeMongoDocumentForFrontendAction
 {

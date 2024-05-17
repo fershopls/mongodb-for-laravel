@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Mongo\Database\Pipes;
+namespace Mongo\Database\Pipes;
 
 class CommandCalledData
 {

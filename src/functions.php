@@ -65,8 +65,8 @@ if (!function_exists('mongo_serialize')) {
      */
     function mongo_serialize($document)
     {
-        /** @var \App\Mongo\Actions\SerializeMongoDocumentForFrontendAction $serializer */
-        $serializer = app(\App\Mongo\Actions\SerializeMongoDocumentForFrontendAction::class);
+        /** @var \Mongo\Actions\SerializeMongoDocumentForFrontendAction $serializer */
+        $serializer = app(\Mongo\Actions\SerializeMongoDocumentForFrontendAction::class);
         return $serializer->execute($document);
     }
 }

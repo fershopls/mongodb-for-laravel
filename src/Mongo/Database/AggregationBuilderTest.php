@@ -1,7 +1,7 @@
 <?php
 
-use App\Mongo\Database\AggregationBuilder;
-use App\Mongo\Database\Collection;
+use Mongo\Database\AggregationBuilder;
+use Mongo\Database\Collection;
 
 test('use aggregation builder with match stage', function () {
     $builder = new AggregationBuilder;

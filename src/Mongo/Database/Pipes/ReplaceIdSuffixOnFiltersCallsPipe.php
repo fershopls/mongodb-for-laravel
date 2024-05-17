@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Mongo\Database\Pipes;
+namespace Mongo\Database\Pipes;
 
-use App\Mongo\Database\Collection;
+use Mongo\Database\Collection;
 
 class ReplaceIdSuffixOnFiltersCallsPipe
 {

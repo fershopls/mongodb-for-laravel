@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Mongo;
+namespace Mongo;
 
 class RefreshMongoDatabase
 {

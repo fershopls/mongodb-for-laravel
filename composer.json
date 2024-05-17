@@ -9,7 +9,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mongo\\": "src/",
+            "Mongo\\": "src/Mongo",
             "Tests\\": "tests/"
         },
         "files": [

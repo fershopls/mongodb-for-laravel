@@ -5,7 +5,7 @@
 
 namespace App\Collections;
 
-use App\Mongo\Database\Collection;
+use Mongo\Database\Collection;
 
 class ClientCollection extends Collection
 {

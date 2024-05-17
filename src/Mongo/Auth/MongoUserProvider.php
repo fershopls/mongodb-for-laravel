@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Mongo\Auth;
+namespace Mongo\Auth;
 
 use App\Collections\UserCollection;
 use Illuminate\Contracts\Auth\Authenticatable;

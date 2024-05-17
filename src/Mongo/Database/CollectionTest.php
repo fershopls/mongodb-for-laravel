@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Mongo\Database;
+namespace Mongo\Database;
 
 use ArrayObject;
 use ErrorException;

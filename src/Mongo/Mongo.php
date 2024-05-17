@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Mongo;
+namespace Mongo;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
@@ -15,7 +15,7 @@ class Mongo
 
     public static function useMongoUserProvider()
     {
-        Auth::provider('mongo', fn() => new \App\Mongo\Auth\MongoUserProvider);
+        Auth::provider('mongo', fn() => new \Mongo\Auth\MongoUserProvider);
     }
 
     public static function discoverPolicyNames()

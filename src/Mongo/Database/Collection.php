@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Mongo\Database;
+namespace Mongo\Database;
 
-use App\Mongo\Database\Pipes\CommandCalledData;
-use App\Mongo\Database\Pipes\ReplaceIdSuffixOnFiltersCallsPipe;
-use App\Mongo\Database\Pipes\SerializeMongoDocumentPipe;
-use App\Mongo\Database\Pipes\WrapResultInLaravelCollectionPipe;
+use Mongo\Database\Pipes\CommandCalledData;
+use Mongo\Database\Pipes\ReplaceIdSuffixOnFiltersCallsPipe;
+use Mongo\Database\Pipes\SerializeMongoDocumentPipe;
+use Mongo\Database\Pipes\WrapResultInLaravelCollectionPipe;
 use Illuminate\Contracts\Routing\UrlRoutable;
 use Illuminate\Pipeline\Pipeline;
 

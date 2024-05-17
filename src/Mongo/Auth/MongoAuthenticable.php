@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Mongo\Auth;
+namespace Mongo\Auth;
 
-use App\Mongo\Database\Collection;
+use Mongo\Database\Collection;
 use Illuminate\Auth\Notifications\ResetPassword as ResetPasswordNotification;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Contracts\Auth\CanResetPassword;
